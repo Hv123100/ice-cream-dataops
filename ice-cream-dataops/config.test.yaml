@@ -18,6 +18,7 @@ variables:
         data_developer_source_id: ${DATA_DEVELOPER_SOURCE_ID}
 
       ice_cream_api:
+        pause_transformations: false
         icapi_extractors_source_id: ${ICAPI_EXTRACTORS_SOURCE_ID}
         tokenUri: ${IDP_TOKEN_URL}
         cdfProjectName: ${CDF_PROJECT}
